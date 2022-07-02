@@ -5,10 +5,13 @@
     font-family: sans-serif;
 }
 
+
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     background-color: gray;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
 }
 
 .cabecalho {
@@ -20,7 +23,7 @@ body {
 }
 
 main {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +46,7 @@ main {
 
 
 .editor-actions {
+    width: 500px;
     display: flex;
     margin-top: 100px;
     gap: 40px;
@@ -71,3 +75,14 @@ main {
     font-weight: bold;
    
 }
+
+footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
