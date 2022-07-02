@@ -1,0 +1,10 @@
+Esse projeto deve ter várias funções que ajudam
+na edição de texto, será um editor online.
+
+
+
+Terá que ter exatamente isso:
+Transformar o texto em caixa alta;
+Transformar o texto em caixa baixa;
+Selecionar uma parte do texto e mudar a cor
+do texto;

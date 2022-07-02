@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor online de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 id="cabecalho-title">Editor Online</h1>
+        <p id="cabecalho-subtitle">Editor online de texto</p>
+    </header>
+    <main>
+        <section class="container-texto">
+            <textarea id="container-texto-content"></textarea>
+        </section>
+        <section class="editor-actions">
+            <div class="editor-actions-action">
+                <input 
+                type="button"
+                value="Aumentar texto"
+                class="editor-actions-action"
+                id="btn-aumentar">
+            </div>
+            <div class="editor-actions-action">
+                <input 
+                type="button"
+                value="Diminuir o texto"
+                class="editor-actions-action"
+                id="btn-diminuir">
+            </div>
+            <div class="editor-actions-action">
+                <div id="editor-action-input-color">
+                    <div id="editor-action-input-color-label">
+                        <label for="cor">Mudar a cor</label>
+                    </div>
+                    <div id="editor-action-input-color-input">
+                        <input type="color"
+                    class="editor-actions-action"
+                    id="btn-mudar-cor">
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
